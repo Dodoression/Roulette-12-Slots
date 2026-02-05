@@ -1,11 +1,10 @@
 # Roulette With 12 Prize Slots
 Simple roulette windows application made in Unity Engine, using 12 prize slots with customizable names, amounts, chances and sprites.
 
----
-# Customizable Sprites
+## Customizable Sprites
 To customize the sprites, when making a build, in the build folder, head to `"Roulette_Data" -> "StreamingAssets"`.
-There, you will find different placeholder sprites for the background, roulette wheel, logo/company central sprite, pointer, button and win panel.
-The following should be named strictly with the same names and file extensions. It is recommended to use the same image size / resolution, as following:
+<br />There, you will find different placeholder sprites for the background, roulette wheel, logo/company central sprite, pointer, button and win panel.
+<br />The following should be named strictly with the same names and file extensions. It is recommended to use the same image size / resolution, as following:
 ```
 Background.png     - 1080x1920
 
@@ -16,10 +15,9 @@ Start_Button.png   - 1080x1080
 Win_Frame.png      - 1080x1080
 ```
 
----
-# Setting Up The Prizes
+## Setting Up The Prizes
 In the same folder, `"Roulette_Data" -> "StreamingAssets"`, you will find a JSON-format file, named `prizes.json`.
-In the file, you will find different elements, named "items". Each element and it's properties can be modified.
+<br />In the file, you will find different elements, named "items". Each element and it's properties can be modified.
 ```
 ID        - the prize's ID. It's recommended not to modify this property, unless you really need to. 
 name      - the name, shown on the roulette wheel. Maximum of 16 symbols, including spaces.
@@ -28,8 +26,17 @@ weight    - the weight of each prize. There is no range (for example 0-1, 0%-100
 The proportion of each prize is calculated based on the sum of all prizes, divided by their count.
 ```
 
----
-# Additional In-App Features
+## Additional In-App Features
 `RESET BUTTON` - Holding the upper left edge of the screen for 3 seconds resets the amount of each prize.
 An indicator for a successful reset is a text that appears for a short amount of time, signaling the resetting, and dissappearing afterwards.
 <br />`QUIT BUTTON` - Holding the upper right edge of the screen for 5 seconds quits the application.
+
+## License
+
+Copyright (c) 2026 Dodoression
+<br />
+<br />Permission is granted to view and modify this source code for personal or internal use only.
+<br />
+<br />Redistribution, publication, sublicensing, or commercial use of this software, in whole or in part, is strictly prohibited without prior written permission from the copyright holder.
+<br />
+<br />THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
