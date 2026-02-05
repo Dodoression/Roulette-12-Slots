@@ -1,6 +1,14 @@
 # Roulette With 12 Prize Slots
 Simple roulette windows application made in Unity Engine, using 12 prize slots with customizable names, amounts, chances and sprites.
 
+## Building The Project
+1. Open the project in Unity Hub using the required Unity version.
+2. Open `File → Build Settings` and select the target platform. The current selected platform is Windows.
+3. Click `Switch Platform` if you want to build for another platform.
+4. Double check that the scene `"Roulette"` is in the build list.
+5. Click `Build` or `Build and Run` and choose an output folder.
+6. Run and enjoy!
+
 ## Customizable Sprites
 To customize the sprites, when making a build, in the build folder, head to `"Roulette_Data" -> "StreamingAssets"`.
 <br />There, you will find different placeholder sprites for the background, roulette wheel, logo/company central sprite, pointer, button and win panel.
